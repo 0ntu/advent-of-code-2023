@@ -163,7 +163,7 @@ int main(int argc, char** argv) {
         exit(EXIT_FAILURE);
     }
 
-    #define INITIAL_CAPACITY 1 
+    #define INITIAL_CAPACITY 50
     LinesArray lines_array;
     lines_array.strs = malloc(INITIAL_CAPACITY * sizeof(char*));
     lines_array.size = 0;
